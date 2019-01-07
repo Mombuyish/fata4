@@ -1,0 +1,964 @@
+
+<!DOCTYPE HTML>
+<html lang="zh-hans" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>简介 · Laravel - 从百草园到三味书屋</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        <meta name="author" content="original Taylor Otwell, translate zgldh">
+        
+        
+    
+    <link rel="stylesheet" href="gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="chapters/Author's_Note.html" />
+    
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="输入并搜索" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter active" data-level="1.1" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    简介
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="chapters/Author's_Note.html">
+            
+                <a href="chapters/Author's_Note.html">
+            
+                    
+                    Author's Note 作者自序
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" >
+            
+                <span>
+            
+                    
+                    1 Dependency Injection 依赖注入
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="chapters/1.1_The_Problem.html">
+            
+                <a href="chapters/1.1_The_Problem.html">
+            
+                    
+                    1.1 The Problem 遇到的问题
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="chapters/1.2_Build_A_Contract.html">
+            
+                <a href="chapters/1.2_Build_A_Contract.html">
+            
+                    
+                    1.2 Build A Contract 建立约定
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3" data-path="chapters/1.3_Take_It_further.html">
+            
+                <a href="chapters/1.3_Take_It_further.html">
+            
+                    
+                    1.3 Take It further 更进一步
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.4" data-path="chapters/1.4_Too_Much_Java.html">
+            
+                <a href="chapters/1.4_Too_Much_Java.html">
+            
+                    
+                    1.4 Too Much Java? 太像Java了？
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" >
+            
+                <span>
+            
+                    
+                    2 The IoC Container 控制反转容器
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" data-path="chapters/2.1_Basic_Binding.html">
+            
+                <a href="chapters/2.1_Basic_Binding.html">
+            
+                    
+                    2.1 Basic Binding 基础绑定
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2" data-path="chapters/2.2_Reflective_Resolution.html">
+            
+                <a href="chapters/2.2_Reflective_Resolution.html">
+            
+                    
+                    2.2 Reflective Resolution 反射解决方案
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" >
+            
+                <span>
+            
+                    
+                    3 Interface As Contract 接口约定
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.1" data-path="chapters/3.1_Strong_Typing_&_Water_Fowl.html">
+            
+                <a href="chapters/3.1_Strong_Typing_&_Water_Fowl.html">
+            
+                    
+                    3.1 Strong Typing & Water Fowl 强类型和小鸭子
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.2" data-path="chapters/3.2_A_Contract_Example.html">
+            
+                <a href="chapters/3.2_A_Contract_Example.html">
+            
+                    
+                    3.2 A Contract Example 约定的范例
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.3" data-path="chapters/3.3_Interface_&_Team_Development.html">
+            
+                <a href="chapters/3.3_Interface_&_Team_Development.html">
+            
+                    
+                    3.3 Interface & Team Development 接口与团队开发
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" >
+            
+                <span>
+            
+                    
+                    4 Service Provider 服务提供者
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.6.1" data-path="chapters/4.1_As_Bootstrapper.html">
+            
+                <a href="chapters/4.1_As_Bootstrapper.html">
+            
+                    
+                    4.1 As Bootstrapper 他是引导程序
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.2" data-path="chapters/4.2_As_Organizer.html">
+            
+                <a href="chapters/4.2_As_Organizer.html">
+            
+                    
+                    4.2 As Organizer 作为管理工具
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.3" data-path="chapters/4.3_Booting_Providers.html">
+            
+                <a href="chapters/4.3_Booting_Providers.html">
+            
+                    
+                    4.3 Booting Providers 服务提供者的启动过程
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.4" data-path="chapters/4.4_Providing_The_Core.html">
+            
+                <a href="chapters/4.4_Providing_The_Core.html">
+            
+                    
+                    4.4 Providing The Core 核心也是服务提供者的模式
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" >
+            
+                <span>
+            
+                    
+                    5 Application Structure 应用结构
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.7.1" data-path="chapters/5.1_Introduction.html">
+            
+                <a href="chapters/5.1_Introduction.html">
+            
+                    
+                    5.1 Introduction 介绍
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.2" data-path="chapters/5.2_MVC_Is_Killing_You.html">
+            
+                <a href="chapters/5.2_MVC_Is_Killing_You.html">
+            
+                    
+                    5.2 MVC Is Killing You MVC是慢性谋杀
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.3" data-path="chapters/5.3_Bye_Models.html">
+            
+                <a href="chapters/5.3_Bye_Models.html">
+            
+                    
+                    5.3 Bye, Bye Models 再见，模型
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.4" data-path="chapters/5.4_It's_All_About_The_Layers.html">
+            
+                <a href="chapters/5.4_It's_All_About_The_Layers.html">
+            
+                    
+                    5.4 It's All About The Layers 核心思想就是分层
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.5" data-path="chapters/5.5_Where_To_Put_Stuff.html">
+            
+                <a href="chapters/5.5_Where_To_Put_Stuff.html">
+            
+                    
+                    5.5 Where To Put "Stuff" 东西都放哪儿？
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8" >
+            
+                <span>
+            
+                    
+                    6 Applied Architecture: Decoupling Handles 实用做法：解耦处理函数
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.8.1" data-path="chapters/6.1_Introduction.html">
+            
+                <a href="chapters/6.1_Introduction.html">
+            
+                    
+                    6.1 Introduction 介绍
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.2" data-path="chapters/6.2_Decoupling_Handlers.html">
+            
+                <a href="chapters/6.2_Decoupling_Handlers.html">
+            
+                    
+                    6.2 Decoupling Handlers 解耦处理函数
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.3" data-path="chapters/6.3_Other_Handlers.html">
+            
+                <a href="chapters/6.3_Other_Handlers.html">
+            
+                    
+                    6.3 Other Handlers 其他处理函数
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9" >
+            
+                <span>
+            
+                    
+                    7 Extending The Framework 扩展框架
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.9.1" data-path="chapters/7.1_Introduction.html">
+            
+                <a href="chapters/7.1_Introduction.html">
+            
+                    
+                    7.1 Introduction 介绍
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.2" data-path="chapters/7.2_Managers_&_Factories.html">
+            
+                <a href="chapters/7.2_Managers_&_Factories.html">
+            
+                    
+                    7.2 Managers & Factories 管理者和工厂
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.3" data-path="chapters/7.3_Cache.html">
+            
+                <a href="chapters/7.3_Cache.html">
+            
+                    
+                    7.3 Cache 缓存
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.4" data-path="chapters/7.4_Session.html">
+            
+                <a href="chapters/7.4_Session.html">
+            
+                    
+                    7.4 Session 会话
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.5" data-path="chapters/7.5_Authentication.html">
+            
+                <a href="chapters/7.5_Authentication.html">
+            
+                    
+                    7.5 Authentication 身份认证
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.6" data-path="chapters/7.6_IoC_Based_Extension.html">
+            
+                <a href="chapters/7.6_IoC_Based_Extension.html">
+            
+                    
+                    7.6 IoC Based Extension 使用容器进行扩展
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.7" data-path="chapters/7.7_Request_Extension.html">
+            
+                <a href="chapters/7.7_Request_Extension.html">
+            
+                    
+                    7.7 Request Extension 请求的扩展
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10" >
+            
+                <span>
+            
+                    
+                    8 Single Responsibility Principle 单一职责原则
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.10.1" data-path="chapters/8.1_Introduction.html">
+            
+                <a href="chapters/8.1_Introduction.html">
+            
+                    
+                    8.1 Introduction 介绍
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10.2" data-path="chapters/8.2_In_Action.html">
+            
+                <a href="chapters/8.2_In_Action.html">
+            
+                    
+                    8.2 In Action 实践
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11" >
+            
+                <span>
+            
+                    
+                    9 Open Closed Principle 开放封闭原则
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.11.1" data-path="chapters/9.1_Introduction.html">
+            
+                <a href="chapters/9.1_Introduction.html">
+            
+                    
+                    9.1 Introduction 介绍
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11.2" data-path="chapters/9.2_In_Action.html">
+            
+                <a href="chapters/9.2_In_Action.html">
+            
+                    
+                    9.2 In Action 实践
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.12" >
+            
+                <span>
+            
+                    
+                    10 Liskov Substitution Principle 里氏替换原则
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.12.1" data-path="chapters/10.1_Introduction.html">
+            
+                <a href="chapters/10.1_Introduction.html">
+            
+                    
+                    10.1 Introduction 介绍
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.12.2" data-path="chapters/10.2_In_Action.html">
+            
+                <a href="chapters/10.2_In_Action.html">
+            
+                    
+                    10.2 In Action 实践
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.13" >
+            
+                <span>
+            
+                    
+                    11 Interface Segregation Principle 接口隔离原则
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.13.1" data-path="chapters/11.1_Introduction.html">
+            
+                <a href="chapters/11.1_Introduction.html">
+            
+                    
+                    11.1 Introduction 介绍
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.13.2" data-path="chapters/11.2_In_Action.html">
+            
+                <a href="chapters/11.2_In_Action.html">
+            
+                    
+                    11.2 In Action 实践
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.14" >
+            
+                <span>
+            
+                    
+                    12 Dependency Inversion Principle 依赖反转原则
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.14.1" data-path="chapters/12.1_Introduction.html">
+            
+                <a href="chapters/12.1_Introduction.html">
+            
+                    
+                    12.1 Introduction 介绍
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.14.2" data-path="chapters/12.2_In_Action.html">
+            
+                <a href="chapters/12.2_In_Action.html">
+            
+                    
+                    12.2 In Action 实践
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            本书使用 GitBook 发布
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="." >简介</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="laravel---&#x4ECE;&#x767E;&#x8349;&#x56ED;&#x5230;&#x4E09;&#x5473;&#x4E66;&#x5C4B;">Laravel - &#x4ECE;&#x767E;&#x8349;&#x56ED;&#x5230;&#x4E09;&#x5473;&#x4E66;&#x5C4B;</h1>
+<p>&#x672C;&#x4E66;&#x662F;&#x300A;From Apprentice To Artisan - Advanced Application Architecture With Laravel 4&#x300B;&#x7684;&#x4E2D;&#x6587;&#x7248;&#xFF0C;&#x539F;&#x4F5C;&#x662F; Laravel &#x6846;&#x67B6;&#x4F5C;&#x8005; <a href="https://github.com/taylorotwell" target="_blank">Taylor Otwell</a>&#x3002;</p>
+<p>&#x672C;&#x4E2D;&#x6587;&#x7248;&#x7531; <a href="https://my.oschina.net/zgldh" target="_blank">zgldh</a> &#x7FFB;&#x8BD1;&#xFF0C;<a href="https://my.oschina.net/zgldh/blog/389246" target="_blank">&#x539F;&#x6587;&#x89C1;&#x6B64;</a>&#xFF0C;&#x5C06;&#x8BD1;&#x6587;&#x6536;&#x96C6;&#x4E8E;&#x6B64;&#x53EA;&#x662F;&#x4E3A;&#x4E86;&#x4FBF;&#x4E8E;&#x9605;&#x8BFB;&#xFF0C;&#x63D0;&#x9AD8;&#x9605;&#x8BFB;&#x4F53;&#x9A8C;&#x3002;</p>
+<h2 id="&#x8BD1;&#x8005;&#x5E8F;">&#x8BD1;&#x8005;&#x5E8F;</h2>
+<p>&#x7F51;&#x4E0A;&#x5076;&#x5F97;&#x6B64;&#x4E66;&#xFF0C;&#x662F; Laravel &#x7684;&#x4F5C;&#x8005;&#x5199;&#x7684;&#x3002; Laravel &#x662F;&#x8FD1;&#x5E74;&#x6765;&#x4F18;&#x79C0;&#x7684; PHP &#x6846;&#x67B6;&#xFF0C;&#x56FD;&#x5185;&#x5916;&#x90FD;&#x6709;&#x5F88;&#x591A;&#x652F;&#x6301;&#x8005;&#x3002;&#x8BE5;&#x6846;&#x67B6;&#x5E94;&#x7528;&#x4E86;&#x5927;&#x91CF; PHP5 &#x5C24;&#x5176;&#x662F; 5.3 &#x4EE5;&#x540E;&#x7684;&#x65B0;&#x7279;&#x6027;&#xFF0C;&#x4F7F;&#x5F97;&#x540E;&#x7AEF;&#x7684;&#x5F00;&#x53D1;&#x8FDB;&#x4E00;&#x6B65;&#x7684;&#x7B80;&#x4FBF;&#x800C;&#x7075;&#x6D3B;&#x3002;&#x5177;&#x4F53;&#x53EF;&#x4EE5;&#x770B;&#x8FD9;&#x91CC; <a href="http://www.laravel.com/" target="_blank">http://www.laravel.com</a></p>
+<p>&#x4F5C;&#x8005;&#x5199;&#x7684;&#x8FD9;&#x672C;&#x4E66;&#x8BE6;&#x7EC6;&#x4ECB;&#x7ECD;&#x4E86;Laravel&#x6846;&#x67B6;&#x6D89;&#x53CA;&#x7684;&#x5404;&#x79CD;&#x8F6F;&#x4EF6;&#x7406;&#x5FF5;&#x548C;&#x5DE5;&#x5177;&#xFF0C;&#x5982;&#x4F9D;&#x8D56;&#x6CE8;&#x5165;&#x3001;&#x63A7;&#x5236;&#x53CD;&#x8F6C;&#x5BB9;&#x5668;&#x3001;&#x9762;&#x5411;&#x63A5;&#x53E3;&#x7F16;&#x7A0B;&#x7B49;&#x3002; &#x6211;&#x8BFB;&#x6765;&#x6536;&#x83B7;&#x9887;&#x4E30;&#xFF0C;&#x6240;&#x4EE5;&#x5E0C;&#x671B;&#x7FFB;&#x8BD1;&#x6210;&#x4E2D;&#x6587;&#x4EE5;&#x98E8;&#x8BFB;&#x8005;&#x3002;</p>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                
+                <a href="chapters/Author's_Note.html" class="navigation navigation-next navigation-unique" aria-label="Next page: Author's Note 作者自序">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"简介","level":"1.1","depth":1,"next":{"title":"Author's Note 作者自序","level":"1.2","depth":1,"path":"chapters/Author's_Note.md","ref":"./chapters/Author's_Note.md","articles":[]},"dir":"ltr"},"config":{"plugins":[],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","author":"original Taylor Otwell, translate zgldh","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"Laravel - 从百草园到三味书屋","language":"zh-hans","gitbook":"*"},"file":{"path":"README.md","mtime":"2019-01-07T16:01:14.307Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-01-07T16:06:05.085Z"},"basePath":".","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="gitbook/gitbook.js"></script>
+    <script src="gitbook/theme.js"></script>
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
